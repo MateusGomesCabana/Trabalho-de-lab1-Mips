@@ -85,7 +85,7 @@ void calculateMips(int save){
 //MAIN FUNCTION ///////////////////////////////////////////////
 int main(){
 	//Intro
-	//piffle();
+	piffle();
 	
 	mainMenu:
 		
@@ -156,7 +156,7 @@ int main(){
 				best = "FIRST";
 			}
 			
-			cout << "The best device was the " << best << " device!\n\n";
+			cout << "The best device was the " << best << "!\n\n";
 			cout << "Press enter to continue...\n\n\n\n\n\n\n\n\n";
 			system("pause");
 			
