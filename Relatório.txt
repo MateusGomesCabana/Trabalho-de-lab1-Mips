@@ -1,0 +1,36 @@
+Calcular MIPS 
+
+Este programa, desenvolvido em C, tem como objetivo calcular o MIPS de processadores.
+MIPS se refere a Milhões de Instruções Por Segundo, e é a medida de quantas instruções
+um determinado processador pode executar por segundo. Para obter uma medida de MIPS,
+o programa precisa de dois parâmetros, informados pelo usuário. O primeiro, é quantas intruções
+foram executadas, o valor deve ser em milhões, e para economizar tempo do usuário, o programa
+multiplica o valor informado por 1 milhão. O segundo parâmetro é o tempo, em segundos, que 
+levou para o processador executar estas instruções.
+
+Tendo recebido esses parâmetros, multiplica-se o tempo por 1 milhão, e em seguida divide-se 
+as instruções pr esse novo valor. Ex: 
+
+(Inserir imagens do programa recebendo as instruções)*****************************
+
+(Inserir imagem dele recebendo o tempo)*********************************************
+
+Após isso, aplica-se a fórmula : instruções / tempo * 10^6;
+
+(Inserir a imagem do programa exbindo o MIPS)**************************************
+
+
+A opção demonstrada acima, é a primeira função do programa, calcular o MIPS de um processador.
+A segunda função é comparar o MIPS de dois processadores, e mostrar qual o melhor. Para tanto,
+deve-se repetir o recebimento dos parâmetros, duas vezes, e então a mesma fórmula é aplicada.
+Para saber qual processador é o melhor, fundamentado apenas no valor do MIPS, basta verificar
+qual deles é o maior, visto que quanto mais instruções executadas por minuto, melhor é o processador.
+Abaixo, um exemplo de como o resultado da comparação é exibido pelo programa.
+
+(inserir imagem da exibição do resultado da comparação)********************************
+
+Após escolher uma das opções de funções do menu inicial, e se chegar ao final dela, é solicitado se 
+o usuário deseja refazer a operação ou voltar ao menu. A terceira e última opção do menu principal,
+é finalizar o programa.
+
+https://github.com/MateusGomesCabana/Trabalho-de-lab1-Mips
