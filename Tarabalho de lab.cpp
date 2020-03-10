@@ -170,7 +170,7 @@ int main(){
 			}while(option2 != 1 && option2 != 2);
 			
 			if(option2 == 1){
-				goto oneMips;
+				goto twoMips;
 			}else{
 				goto mainMenu;
 			}
